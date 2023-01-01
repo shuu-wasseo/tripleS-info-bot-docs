@@ -13,8 +13,8 @@ for example, `@tripleSinfobot !guide` will trigger the relevant thread.
 ## commands
 |command|description|no. of tweets|
 |-|-|-|
-|nfts|replies with a thread containing a portion of jaden jeong's interview with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system[^1]|5|
-|disband|replies with a thread containing a portion of jaden jeong's interview with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system[^1]|5|
+|nfts|replies with a thread containing a portion of jaden jeong's interview[^1] with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
+|disband|replies with a thread containing a portion of jaden jeong's intervie[^1]w with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
 |jj|replies with a reddit post about jaden jeong|2|
 |voting|replies with a thread explaining tripleS' voting system|3|
 |guide|replies with a thread containing varsha's guide and the tripleS discord server link|2|
