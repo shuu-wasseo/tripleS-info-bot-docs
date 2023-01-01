@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>tripleSinfobot documentation</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> introduction</a></li><li class="chapter-item expanded "><a href="commands.html"><strong aria-hidden="true">2.</strong> commands</a></li><li class="chapter-item expanded "><a href="support.html"><strong aria-hidden="true">3.</strong> support</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">tripleSinfobot documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">introduction</a></h1>
+<h2 id="welcome-to-triplesinfobot"><a class="header" href="#welcome-to-triplesinfobot">welcome to tripleSinfobot!</a></h2>
+<p>with the rise of misinformation regarding tripleS, i find it extremely important that tripleS fans (swisse) continue to combat and prevent this misinformation from spreading. </p>
+<p>the bot makes this easier, allowing users to simply tag the bot and use a command in a tweet. the bot will then reply with a thread containing the relevant information, correctly informing whoever reads the thread and preventing tripleS from gaining a bad name over misinformation.</p>
+<h2 id="how-to-use-the-bot"><a class="header" href="#how-to-use-the-bot">how to use the bot</a></h2>
+<p>simply send a tweet with <code>@tripleSinfobot !&lt;command&gt;</code> and the bot will reply! </p>
+<p>for example, <code>@tripleSinfobot !guide</code> will trigger the relevant thread.</p>
+<h2 id="commands"><a class="header" href="#commands">commands</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>command</th><th>description</th></tr></thead><tbody>
+<tr><td>nfts</td><td>replies with a thread containing a portion of jaden jeong's interview with nme and a thread (linked) by <a href="https://twitter.com/gwnyoo">@gwnyoo on twt</a> about tripleS' nft and unit system<sup class="footnote-reference"><a href="#1">1</a></sup></td></tr>
+<tr><td>disband</td><td>replies with a thread containing a portion of jaden jeong's interview with nme and a thread (linked) by <a href="https://twitter.com/gwnyoo">@gwnyoo on twt</a> about tripleS' nft and unit system<sup class="footnote-reference"><a href="#1">1</a></sup></td></tr>
+<tr><td>jj</td><td>replies with a reddit post about jaden jeong</td></tr>
+<tr><td>voting</td><td>replies with a thread explaining tripleS' voting system</td></tr>
+<tr><td>guide</td><td>replies with a thread containing varsha's guide and the tripleS discord server link</td></tr>
+<tr><td>help</td><td>replies with the link to this mdbook</td></tr>
+</tbody></table>
+</div>
+<p>visit the <a href="./commands.html">commands page</a> for more.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>different portions of jaden jeong's nme interview are used in the two threads.</p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="commands-1"><a class="header" href="#commands-1">commands</a></h1>
+<p>each command triggers a thread. here are the contents of each thread, with each paragraph being one tweet.</p>
+<h2 id="nfts"><a class="header" href="#nfts">nfts</a></h2>
+<blockquote>
+<p>debunking misconceptions about tripleS and NFTs: a thread</p>
+<p>'The NFT itself is not a core value of our system. I started this project to have more participation from fans and more activity. As a voting tool, the NFT has a certain value and transparency because it cannot be manipulated. </p>
+<p>We could vote via email, text or CD, but we’ve seen many manipulation scandals. With this technology, we have integrity in our votes. TripleS is a girl group with many decisions made by fan vote, not a girl group with NFTs.' ~ jaden jeong in an interview with NME</p>
+<p>read more here: https://twitter.com/gwnyoo/status/1587253190885605379?s=20&amp;t=KfAttZgS-aFSylnKJ1ZfTg</p>
+<p>source of interview: https://www.nme.com/news/music/jaden-jeong-triples-acid-angel-from-asia-disband-controversy-interview-modhaus-nft-3363178</p>
+</blockquote>
+<h2 id="disband"><a class="header" href="#disband">disband</a></h2>
+<blockquote>
+<p>debunking misconceptions about tripleS and disbanding units: a thread</p>
+<p>'We built this band with the intention of having many types of sub-unit and to make many different types of music, but with the fans’ participation and decisions. If someone is asking if AAA is disbanded, our answer is ‘half yes, half no’. </p>
+<p>We can’t say that AAA is going to have another album come out, but we do have a fundamental principle that fans can decide our next steps. We can never say never.' ~ jaden jeong in an interview with NME</p>
+<p>read more here: https://twitter.com/gwnyoo/status/1587253190885605379?s=20&amp;t=KfAttZgS-aFSylnKJ1ZfTg</p>
+<p>source of interview: https://www.nme.com/news/music/jaden-jeong-triples-acid-angel-from-asia-disband-controversy-interview-modhaus-nft-3363178</p>
+</blockquote>
+<h2 id="jj"><a class="header" href="#jj">jj</a></h2>
+<blockquote>
+<p>jaden jeong isn't the best person, but god fucking dammit he wasn't as shit as you guys make him out to be. if you even knew how the k-pop industry works, you would know most of the things that jaden jeong allegedly did were obviously not true.</p>
+<p>read more here: https://www.reddit.com/r/LOONA/comments/nmm7ea/lets_lay_to_rest_this_false_narrative_that_jaden/</p>
+</blockquote>
+<h2 id="voting"><a class="header" href="#voting">voting</a></h2>
+<blockquote>
+<p>debunking misconceptions about the tripleS voting system: a thread</p>
+<p>tripleS' voting system is not like a survival system. so far, the only form of fan voting to decide members of a unit was in the form of 'grand gravity'. the first grand gravity separated S1-S8 into 4 pairs. in each pair, one member would be in the unit AAA while the other would be in the unit KRE. each member at the time had a chance to debut in a unit. </p>
+<p>this allows all members to get to debut in at least one unit, and does not leave any members being treated extremely unfairly (left out of unit activities / without a unit / etc.) as you can see from the tweet below, each member was placed in a unit. https://twitter.com/triplescosmos/status/1574005796693839875</p>
+</blockquote>
+<h2 id="guide"><a class="header" href="#guide">guide</a></h2>
+<blockquote>
+<p>to learn more about tripleS, read varsha (@vibts713)'s guide here: https://docs.google.com/presentation/d/1rjc9o6Wm2NLOPuPdMVt0oCXIDIYobVMdVIUmNmcU2rc/edit?usp=sharing</p>
+<p>for even more information, join the discord server at https://discord.gg/triplescosmos!</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="support"><a class="header" href="#support">support</a></h1>
+<p>for any inquiries or suggestions, dm <a href="https://twitter.com/localswissedev">@localswissedev on twt</a>. feel free to ask away.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
