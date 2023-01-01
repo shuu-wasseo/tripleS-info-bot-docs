@@ -25,4 +25,4 @@ do note that you can put any other text in the thread if you want. any tweet men
 
 visit the [commands page](./commands.md) for more.
 
-[^1]: different portions of jaden jeong's nme interview are used in the two threads.
+[^1]: different portions of jaden jeong's nme interview (in response to different questions) are used in the two threads.
