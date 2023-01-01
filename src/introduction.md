@@ -13,15 +13,15 @@ for example, `@tripleSinfobot !guide` will trigger the relevant thread.
 do note that you can put any other text in the thread if you want. any tweet mentioning tripleSinfobot and containing a valid command will trigger the bot.
 
 ## commands
-|command|description|no. of tweets|
+|command|reply thread|no. of tweets|
 |-|-|-|
-|nfts|replies with a thread containing a portion of jaden jeong's interview[^1] with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
-|disband|replies with a thread containing a portion of jaden jeong's interview[^1] with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
-|jj|replies with a reddit post about jaden jeong|2|
-|voting|replies with a thread explaining tripleS' voting system|3|
-|guide|replies with a thread containing varsha's guide and the tripleS discord server link|2|
-|salary|replies with a thread containing a section of the tripleS AMA in regards to how the tripleS members are getting paid|2|
-|help|replies with the link to this mdbook|1|
+|nfts|a portion of jaden jeong's interview[^1] with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
+|disband|a portion of jaden jeong's interview[^1] with nme and a thread (linked) by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
+|jj|a reddit post about jaden jeong|2|
+|voting|explaining tripleS' voting system|3|
+|guide|varsha's guide and the tripleS discord server link|2|
+|salary|a section of the tripleS AMA in regards to how the tripleS members are getting paid|2|
+|help|the link to this mdbook|1|
 
 visit the [commands page](./commands.md) for more.
 
