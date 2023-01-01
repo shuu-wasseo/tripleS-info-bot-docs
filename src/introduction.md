@@ -18,7 +18,8 @@ for example, `@tripleSinfobot !guide` will trigger the relevant thread.
 |jj|replies with a reddit post about jaden jeong|2|
 |voting|replies with a thread explaining tripleS' voting system|3|
 |guide|replies with a thread containing varsha's guide and the tripleS discord server link|2|
-|help|replies with the link to this mdbook|0|
+|salary|replies with a thread containing a section of the tripleS AMA in regards to how the tripleS members are getting paid|2|
+|help|replies with the link to this mdbook|1|
 
 visit the [commands page](./commands.md) for more.
 

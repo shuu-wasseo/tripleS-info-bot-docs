@@ -40,4 +40,10 @@ each command triggers a thread. here are the contents of each thread, with each 
 >
 > for even more information, join the discord server at https://discord.gg/triplescosmos!
 
-## help (pending)
+## salary (2 tweets)
+> unlike most idols, tripleS members are paid like MODHAUS employees. according to MODHAUS staff in the AMA: "profits from Objekt will be shared with our artists, even before the cumulative BEP is made".
+>
+> source of AMA: https://unopnd.notion.site/AMA-Recap-f25d4c4893734e46b33d09c119ea2949
+
+## help (1 tweet)
+> to learn how to use the bot, visit https://shuu-wasseo.github.io/tripleS-info-bot-docs/.
