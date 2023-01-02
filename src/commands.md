@@ -1,7 +1,7 @@
 # commands
 each command triggers a thread. here are the contents of each thread, with each paragraph being one tweet.
 
-## nfts (6 tweets)
+## nfts (7 tweets)
 > debunking misconceptions about tripleS and NFTs: a thread
 >
 > 'The NFT itself is not a core value of our system. I started this project to have more participation from fans and more activity. As a voting tool, the NFT has a certain value and transparency because it cannot be manipulated. 
@@ -9,6 +9,8 @@ each command triggers a thread. here are the contents of each thread, with each 
 > We could vote via email, text or CD, but we’ve seen many manipulation scandals. With this technology, we have integrity in our votes. TripleS is a girl group with many decisions made by fan vote, not a girl group with NFTs.' ~ jaden jeong in an interview with NME
 >
 > additionally, polygon (the blockchain system that modhaus is running on) has pledged to become carbon negative by the end of 2022. https://polygon.technology/blog/polygon-is-going-carbon-negative-in-2022-with-a-20-million-pledge
+>
+> polygon has already reached carbon neutrality as of june 2022. https://www.prnewswire.com/ae/news-releases/polygon-network-reaches-first-sustainability-milestone-by-achieving-carbon-neutrality-301571777.html
 >
 > read more here: https://twitter.com/gwnyoo/status/1587253190885605379?s=20&t=KfAttZgS-aFSylnKJ1ZfTg
 >
