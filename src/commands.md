@@ -28,7 +28,7 @@ each command triggers a thread. here are the contents of each thread, with each 
 > source of interview: https://www.nme.com/news/music/jaden-jeong-triples-acid-angel-from-asia-disband-controversy-interview-modhaus-nft-3363178
 
 ## jj (2 tweets)
-> jaden jeong isn't the best person, but god fucking dammit he wasn't as shit as you guys make him out to be. if you even knew how the k-pop industry works, you would know most of the things that jaden jeong allegedly did were obviously not true.
+> jaden jeong isn't the best person, but he wasn't as shit as you guys make him out to be. if you even knew how the k-pop industry works, you would know most of the things that jaden jeong allegedly did were obviously not true.
 >
 > read more here: https://www.reddit.com/r/LOONA/comments/nmm7ea/lets_lay_to_rest_this_false_narrative_that_jaden/
 
