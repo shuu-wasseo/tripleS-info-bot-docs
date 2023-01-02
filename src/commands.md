@@ -8,6 +8,8 @@ each command triggers a thread. here are the contents of each thread, with each 
 >
 > We could vote via email, text or CD, but we’ve seen many manipulation scandals. With this technology, we have integrity in our votes. TripleS is a girl group with many decisions made by fan vote, not a girl group with NFTs.' ~ jaden jeong in an interview with NME
 >
+> additionally, polygon (the blockchain system that modhaus is running on) has pledged to become carbon negative by the end of 2022.
+>
 > read more here: https://twitter.com/gwnyoo/status/1587253190885605379?s=20&t=KfAttZgS-aFSylnKJ1ZfTg
 >
 > source of interview: https://www.nme.com/news/music/jaden-jeong-triples-acid-angel-from-asia-disband-controversy-interview-modhaus-nft-3363178
