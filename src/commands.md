@@ -1,7 +1,7 @@
 # commands
 each command triggers a thread. here are the contents of each thread, with each paragraph being one tweet.
 
-## nfts (5 tweets)
+## nfts (6 tweets)
 > debunking misconceptions about tripleS and NFTs: a thread
 >
 > 'The NFT itself is not a core value of our system. I started this project to have more participation from fans and more activity. As a voting tool, the NFT has a certain value and transparency because it cannot be manipulated. 
