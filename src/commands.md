@@ -28,10 +28,12 @@ each command triggers a thread. here are the contents of each thread, with each 
 >
 > read more here: https://www.reddit.com/r/LOONA/comments/nmm7ea/lets_lay_to_rest_this_false_narrative_that_jaden/
 
-## voting (3 tweets)
+## voting (4 tweets)
 > debunking misconceptions about the tripleS voting system: a thread
 >
-> tripleS' voting system is not like a survival system. so far, the only form of fan voting to decide members of a unit was in the form of 'grand gravity'. the first grand gravity separated S1-S8 into 4 pairs. in each pair, one member would be in the unit AAA while the other would be in the unit KRE. each member at the time had a chance to debut in a unit. 
+> tripleS' voting system is not like a survival system. so far, the only form of fan voting to decide members of a unit was in the form of 'grand gravity'. 
+>
+> the first grand gravity separated S1-S8 into 4 pairs. in each pair, one member would be in the unit AAA while the other would be in the unit KRE. each member at the time had a chance to debut in a unit. 
 >
 > this allows all members to get to debut in at least one unit, and does not leave any members being treated extremely unfairly (left out of unit activities / without a unit / etc.) as you can see from the tweet below, each member was placed in a unit. https://twitter.com/triplescosmos/status/1574005796693839875
 
