@@ -8,7 +8,7 @@ each command triggers a thread. here are the contents of each thread, with each 
 >
 > We could vote via email, text or CD, but we’ve seen many manipulation scandals. With this technology, we have integrity in our votes. TripleS is a girl group with many decisions made by fan vote, not a girl group with NFTs.' ~ jaden jeong in an interview with NME
 >
-> additionally, polygon (the blockchain system that modhaus is running on) has pledged to become carbon negative by the end of 2022.
+> additionally, polygon (the blockchain system that modhaus is running on) has pledged to become carbon negative by the end of 2022. https://polygon.technology/blog/polygon-is-going-carbon-negative-in-2022-with-a-20-million-pledge
 >
 > read more here: https://twitter.com/gwnyoo/status/1587253190885605379?s=20&t=KfAttZgS-aFSylnKJ1ZfTg
 >

@@ -15,7 +15,7 @@ do note that you can put any other text in the thread if you want. any tweet men
 ## commands
 |command|reply thread|no. of tweets|
 |-|-|-|
-|nfts|a portion of jaden jeong's interview[^1] with nme and a thread by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|6|
+|nfts|a portion of jaden jeong's interview[^1] with nme, polygon's article on becoming carbon negative and a thread by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|6|
 |disband|a portion of jaden jeong's interview[^1] with nme and a thread by [@gwnyoo on twt](https://twitter.com/gwnyoo) about tripleS' nft and unit system|5|
 |jj|a reddit post about jaden jeong|2|
 |voting|explaining tripleS' voting system|4|
