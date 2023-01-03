@@ -44,6 +44,8 @@ each command triggers a thread. here are the contents of each thread, with each 
 ## guide (2 tweets)
 > to learn more about tripleS, read varsha (@vibts713)'s guide here: https://docs.google.com/presentation/d/1rjc9o6Wm2NLOPuPdMVt0oCXIDIYobVMdVIUmNmcU2rc/edit?usp=sharing
 >
+> for a shorter and less dense timeline, try shua (@kajetesantakalu, the bot's creator)'s timeline here: https://triples-timeline.carrd.co
+>
 > for even more information, join the discord server at https://discord.gg/triplescosmos!
 
 ## salary (2 tweets)
